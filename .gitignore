@@ -1,20 +1,21 @@
-# Environment / secrets
+﻿# Secrets — never commit
 .env
 *.env
+
+# Python / environments
 __pycache__/
 *.pyc
-.venv/
 venv/
+.venv/
 
-# Vector store / processed data (regenerable — keep repo light)
-data/processed/*
-!data/processed/.gitkeep
+# Regenerable search index (rebuild with: python src/retrieval/vector_store.py)
+data/processed/vector_store/
 
-# OS
+# Template preview renders
+outputs/**/_template_check_*
+outputs/**/*.pdf
+
+# OS / editors
 .DS_Store
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Template check renders (python -m tests.render_samples)
-outputs/sample_decks/_template_check_*
+.vscode/
