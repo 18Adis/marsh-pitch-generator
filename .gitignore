@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+*.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Vector store / processed data (regenerable — keep repo light)
+data/processed/*
+!data/processed/.gitkeep
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Template check renders (python -m tests.render_samples)
+outputs/sample_decks/_template_check_*

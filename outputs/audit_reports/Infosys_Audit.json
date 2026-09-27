@@ -1,0 +1,342 @@
+{
+  "total_claims": 9,
+  "verified_count": 1,
+  "conditional_count": 1,
+  "flagged_count": 4,
+  "rejected_count": 3,
+  "unchecked_count": 0,
+  "confidence_score": 37.8,
+  "fully_verified_pct": 11.1,
+  "overall_status": "NEEDS HUMAN REVIEW",
+  "claim_results": [
+    {
+      "claim_id": "C1",
+      "claim_type": "benefit",
+      "section": "Benefits mapped to your risks",
+      "risk": "Sedentary desk work \u2013 IT services workforce with 'long periods of sedentary activity' noted in HALE program description",
+      "matched_benefit": "Wellness Benefit with daily step tracking, digital/AI fitness coaching, and nutritionist/wellness coach access",
+      "source_policy": "Care_Health_Product_Brochure.pdf",
+      "page_number": 3,
+      "exact_quote_from_source": "Recording 10,000 steps or more in a day through tracking apps, devices etc. Access to Digital Fitness Coaching Access to AI Fitness Coaching Access to Nutritionist/Wellness Coach",
+      "quote_status": "FUZZY_CLAIMED_PAGE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 3,
+      "evidence_excerpt": "\u2026 k-up5 Once per Insured per policy year Wellness Benefit1 a) Recording 10,000 steps or more in a day through tracking apps, devices etc. Air Ambulance5 Up to `5 lacs per year b) Access to Digital Fitness Coaching c) Access to AI Fitness Coaching d) Access to Nutritionist/Wellness Coach Note: Benefit (b, c & d) shall be  \u2026",
+      "semantic_verdict": "SUPPORTED_WITH_CONDITION",
+      "semantic_reason": "Source lists step tracking, digital fitness coaching, AI fitness coaching, and nutritionist/wellness coach under Wellness Benefit, but notes benefits (b, c, d) are only for insured members aged above 12 years.",
+      "missing_condition": "available only for insured members aged above 12 years for digital/AI fitness coaching and nutritionist/wellness coach access",
+      "final_status": "VERIFIED_WITH_CONDITION",
+      "confidence_weight": 0.8,
+      "recommended_action": "Approve after a minor edit \u2014 add the condition: available only for insured members aged above 12 years for digital/AI fitness coaching and nutritionist/wellness coach access; quote wording differs from the source; use the exact source wording."
+    },
+    {
+      "claim_id": "C2",
+      "claim_type": "benefit",
+      "section": "Benefits mapped to your risks",
+      "risk": "High-stress roles \u2013 'busy schedules' and 'irregular working hours' highlighted as workplace issues",
+      "matched_benefit": "Access to Nutritionist/Wellness Coach for personalized stress and lifestyle guidance",
+      "source_policy": "Care_Health_Product_Brochure.pdf",
+      "page_number": 3,
+      "exact_quote_from_source": "Access to Nutritionist/Wellness Coach",
+      "quote_status": "EXACT_CLAIMED_PAGE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 3,
+      "evidence_excerpt": "Annual Health Check-up5 Once per Insured per policy year Wellness Benefit1 a) Recording 10,000 steps or more in a day through tracking apps, devices etc. Air Ambulance5 Up to `5 lacs per year b) Access to Digital Fitness Coaching c) Access to AI Fitness Coaching d) Access to Nutritionist/Wellness Coach Note: Benefit (b \u2026",
+      "semantic_verdict": "PARTIALLY_SUPPORTED",
+      "semantic_reason": "Source states 'Access to Nutritionist/Wellness Coach' but does not specify that this access is 'for personalized stress and lifestyle guidance'.",
+      "missing_condition": "",
+      "final_status": "FLAGGED",
+      "confidence_weight": 0.4,
+      "recommended_action": "Edit \u2014 correct the overstated or altered detail to match the source wording."
+    },
+    {
+      "claim_id": "C3",
+      "claim_type": "benefit",
+      "section": "Benefits mapped to your risks",
+      "risk": "Overseas/rotation roles \u2013 global presence worldwide with ~15% workforce outside India",
+      "matched_benefit": "Activ One VIP+ plan with no geographical borders for worldwide coverage",
+      "source_policy": "ABHI_Product_Brochure.pdf",
+      "page_number": 2,
+      "exact_quote_from_source": "With no geographical borders, the Activ One VIP+ plan bring the best-in-class health and health insurance offerings to you.",
+      "quote_status": "EXACT_CLAIMED_PAGE",
+      "matched_document": "ABHI_Product_Brochure.pdf",
+      "matched_page": 2,
+      "evidence_excerpt": "ACTIV ONE IS ALSO AN INFLATION-PROOF HEALTH INSURANCE PLAN AS IT PROTECTS YOU FROM RISING MEDICAL COSTS 2X 3X 4X 5X 6X YEAR 2 YEAR 3 YEAR 4 YEAR 5 YEAR 6 Scan to meet THE ACCELERATING ONE Your cover will keep getting stronger and more powerful with every passing year. With our Super Credit feature, your Sum Insured in\ufb02 \u2026",
+      "semantic_verdict": "SUPPORTED",
+      "semantic_reason": "Source explicitly states 'Presenting the Activ One VIP+ plan... With no geographical borders, the Activ One VIP+ plan bring the best-in-class health and health insurance offerings to you.'",
+      "missing_condition": "",
+      "final_status": "VERIFIED",
+      "confidence_weight": 1.0,
+      "recommended_action": "Approve \u2014 claim is accurately grounded in the source."
+    },
+    {
+      "claim_id": "C4",
+      "claim_type": "benefit",
+      "section": "Benefits mapped to your risks",
+      "risk": "Large young workforce \u2013 high recruitment volume (3,78,994 applications received in one year per annual report)",
+      "matched_benefit": "Lifelong entry and exit age for adults, child coverage up to age 25, and instant cover for select pre-existing conditions after 30 days",
+      "source_policy": "Care_Health_Product_Brochure.pdf",
+      "page_number": 2,
+      "exact_quote_from_source": "Entry Age \u2013 Minimum Adult: 18 years Child: 90 days Exit Age Adult: Lifelong Child: 25 years Instant Cover For Hypertension or Diabetes or Hyperlipidemia or Asthma post initial wait period of 30 days",
+      "quote_status": "NOT_FOUND_ANYWHERE",
+      "matched_document": null,
+      "matched_page": null,
+      "evidence_excerpt": "",
+      "semantic_verdict": "SKIPPED",
+      "semantic_reason": "The quoted text does not appear in any of the four brochures.",
+      "missing_condition": "",
+      "final_status": "REJECTED",
+      "confidence_weight": 0.0,
+      "recommended_action": "Reject \u2014 remove or rewrite this claim; it cannot be traced to a source."
+    },
+    {
+      "claim_id": "C5",
+      "claim_type": "benefit",
+      "section": "Benefits mapped to your risks",
+      "risk": "Shift/irregular hours \u2013 wellness program specifically targets 'irregular working hours'",
+      "matched_benefit": "HealthReturns earned by walking 10,000 steps or burning 300 calories per session via app \u2014 flexible timing suits shift schedules",
+      "source_policy": "ABHI_Product_Brochure.pdf",
+      "page_number": 1,
+      "exact_quote_from_source": "Sync app and walk 10,000 steps a day or burn 300 calories per session Tadaa! You just earned HealthReturnsTM for yourself!",
+      "quote_status": "EXACT_CLAIMED_PAGE",
+      "matched_document": "ABHI_Product_Brochure.pdf",
+      "matched_page": 1,
+      "evidence_excerpt": "\u2026 ssment, get Green Healthy Heart ScoreTM Download our Activ Health app Sync app and walk 10,000 steps a day or burn 300 calories per session Tadaa! You just earned HealthReturnsTM for yourself! Scan to meet THE REWARDING ONE WITH ACTIV ONE, STAY ACTIVE & HEALTHY TO EARN UP TO 100% HealthReturnsTM* WANT TO KNOW HOW? PINC \u2026",
+      "semantic_verdict": "PARTIALLY_SUPPORTED",
+      "semantic_reason": "Source confirms HealthReturns can be earned by walking 10,000 steps a day or burning 300 calories per session via the Activ Health app, but does not mention flexible timing suiting shift schedules.",
+      "missing_condition": "",
+      "final_status": "FLAGGED",
+      "confidence_weight": 0.4,
+      "recommended_action": "Edit \u2014 correct the overstated or altered detail to match the source wording."
+    },
+    {
+      "claim_id": "C6",
+      "claim_type": "talking_point",
+      "section": "Recommendation",
+      "risk": "Recommendation talking point",
+      "matched_benefit": "Covers 4 of 5 key workforce risks with specific, verifiable benefits \u2014 more than any competing plan",
+      "source_policy": "Care Supreme (with Care Advanced add-on)",
+      "page_number": 0,
+      "exact_quote_from_source": "",
+      "quote_status": "RETRIEVED_EVIDENCE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 3,
+      "evidence_excerpt": "\u2026  30% 20% 15% 10% Less than 120 0% 270 240 180 120 Instant Cover7 For Hypertension or Diabetes or Hyperlipidemia or Asthma post initial wait period of 30 days5 [Care_Health_Product_Brochure.pdf p.4] of age Cumulative Bonus Booster6 100% of Base Sum Insured per year irrespective of claim - unlimited times on continuous r \u2026",
+      "semantic_verdict": "NOT_SUPPORTED",
+      "semantic_reason": "Source lists various benefits but does not categorize them as covering '4 of 5 key workforce risks', does not define workforce risks, and makes no comparison to competing plans.",
+      "missing_condition": "",
+      "final_status": "REJECTED",
+      "confidence_weight": 0.0,
+      "recommended_action": "Reject \u2014 remove or rewrite this claim; the source does not support it."
+    },
+    {
+      "claim_id": "C7",
+      "claim_type": "talking_point",
+      "section": "Recommendation",
+      "risk": "Recommendation talking point",
+      "matched_benefit": "Wellness architecture mirrors HALE's focus: step tracking, AI coaching, and nutritionist access all built into the policy",
+      "source_policy": "Care Supreme (with Care Advanced add-on)",
+      "page_number": 0,
+      "exact_quote_from_source": "",
+      "quote_status": "RETRIEVED_EVIDENCE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 3,
+      "evidence_excerpt": "\u2026 3] Annual Health Check-up5 Once per Insured per policy year Wellness Benefit1 a) Recording 10,000 steps or more in a day through tracking apps, devices etc. Air Ambulance5 Up to `5 lacs per year b) Access to Digital Fitness Coaching c) Access to AI Fitness Coaching d) Access to Nutritionist/Wellness Coach Note: Benefit \u2026",
+      "semantic_verdict": "PARTIALLY_SUPPORTED",
+      "semantic_reason": "Source includes step tracking, AI coaching, and nutritionist access in the Wellness Benefit, but does not mention HALE or that the wellness architecture mirrors HALE's focus.",
+      "missing_condition": "",
+      "final_status": "FLAGGED",
+      "confidence_weight": 0.4,
+      "recommended_action": "Edit \u2014 correct the overstated or altered detail to match the source wording."
+    },
+    {
+      "claim_id": "C8",
+      "claim_type": "talking_point",
+      "section": "Recommendation",
+      "risk": "Recommendation talking point",
+      "matched_benefit": "Lifelong adult entry/exit and child coverage to age 25 fit Infosys's high-volume, young hiring profile",
+      "source_policy": "Care Supreme (with Care Advanced add-on)",
+      "page_number": 0,
+      "exact_quote_from_source": "",
+      "quote_status": "RETRIEVED_EVIDENCE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 2,
+      "evidence_excerpt": "\u2026 SI) \u2013 on Annual Basis (in `) Age of Proposer Tenure Options Entry Age \u2013 Minimum Entry Age \u2013 Maximum Exit Age Cover Type Pricing Plan Details: In-Patient Care Day Care Treatment Modern Treatment ICU Cover Cumulative Bonus Road Ambulance Cover Pre-Hospitalization Medical Expenses Post Hospitalization Medical Expenses AYU \u2026",
+      "semantic_verdict": "PARTIALLY_SUPPORTED",
+      "semantic_reason": "Source confirms lifelong adult entry/exit and child coverage up to age 25, but does not mention Infosys or any fit to a high-volume, young hiring profile.",
+      "missing_condition": "",
+      "final_status": "FLAGGED",
+      "confidence_weight": 0.4,
+      "recommended_action": "Edit \u2014 correct the overstated or altered detail to match the source wording."
+    },
+    {
+      "claim_id": "C9",
+      "claim_type": "talking_point",
+      "section": "Recommendation",
+      "risk": "Recommendation talking point",
+      "matched_benefit": "Digital-first wellness tools work across shifts and time zones without scheduling friction",
+      "source_policy": "Care Supreme (with Care Advanced add-on)",
+      "page_number": 0,
+      "exact_quote_from_source": "",
+      "quote_status": "RETRIEVED_EVIDENCE",
+      "matched_document": "Care_Health_Product_Brochure.pdf",
+      "matched_page": 3,
+      "evidence_excerpt": "\u2026 3] Annual Health Check-up5 Once per Insured per policy year Wellness Benefit1 a) Recording 10,000 steps or more in a day through tracking apps, devices etc. Air Ambulance5 Up to `5 lacs per year b) Access to Digital Fitness Coaching c) Access to AI Fitness Coaching d) Access to Nutritionist/Wellness Coach Note: Benefit \u2026",
+      "semantic_verdict": "NOT_SUPPORTED",
+      "semantic_reason": "Source describes digital wellness tools (digital/AI fitness coaching, nutritionist access) but does not state they work across shifts and time zones without scheduling friction.",
+      "missing_condition": "",
+      "final_status": "REJECTED",
+      "confidence_weight": 0.0,
+      "recommended_action": "Reject \u2014 remove or rewrite this claim; the source does not support it."
+    }
+  ],
+  "other_statements": [
+    {
+      "category": "Marsh service",
+      "statement": "Marsh brings deep expertise in designing global employee benefits programs for technology leaders, combining local market knowledge across 130+ countries with data-driven wellness integration.",
+      "source": "\u2014",
+      "status": "Advisor sign-off \u2014 not a policy term"
+    },
+    {
+      "category": "Marsh service",
+      "statement": "Our advisory approach aligns insurance architecture with your HALE program's measurable health outcomes, ensuring coverage evolves alongside your workforce demographics and geographic footprint.",
+      "source": "\u2014",
+      "status": "Advisor sign-off \u2014 not a policy term"
+    },
+    {
+      "category": "Comparative reasoning",
+      "statement": "Care Supreme addresses four of Infosys's five identified risks with specific, grounded benefits: sedentary work through its structured wellness benefit (steps, AI coaching, nutritionist access), high-stress roles via wellness coach support, large young workforce through lifelong adult coverage and child eligibility to age 25, and shift/irregular hours via digitally accessible wellness tools.",
+      "source": "Derived from the audited benefits",
+      "status": "Advisor review \u2014 cross-policy comparison"
+    },
+    {
+      "category": "Comparative reasoning",
+      "statement": "While Aditya Birla's Activ One VIP+ uniquely offers borderless coverage for the ~15% overseas workforce, Care Supreme covers more of the core daily risks affecting the majority 85% India-based employee base.",
+      "source": "Derived from the audited benefits",
+      "status": "Advisor review \u2014 cross-policy comparison"
+    },
+    {
+      "category": "Comparative reasoning",
+      "statement": "The Care Advanced add-on further strengthens the sedentary-work response with cumulative bonus booster and enhanced wellness \u2014 a combination no other candidate matches across this risk profile.",
+      "source": "Derived from the audited benefits",
+      "status": "Advisor review \u2014 cross-policy comparison"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Employees: Total permanent employees 3,23,578 (Fiscal 2025)",
+      "source": "[S4] https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Revenue: Total revenue from operations 1,62,990 (year ended March 31, 2025)",
+      "source": "[S4] https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Headquarters: Electronics City Hosur Rd, Bangalore, Karnataka, 560100, India",
+      "source": "[S1] https://www.globaldata.com/company-profile/infosys-limited-financial-services-group",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Global presence: The company has presence worldwide",
+      "source": "[S1] https://www.globaldata.com/company-profile/infosys-limited-financial-services-group",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Workforce gender mix: Male 1,97,246; Female 1,26,332 (Fiscal 2025)",
+      "source": "[S4] https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-25.pdf",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Health insurance partner: Infosys Chooses New Health Insurance Partner for 320,000 Employees (transitioned from National Insurance to GoDigit)",
+      "source": "[S5] https://www.linkedin.com/posts/prakhar-agrawal7_godigit-infosys-insurance-activity-7353278260639596544-Qm9k",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Wellness program: HALE wellness program addresses 'busy schedules that had long periods of sedentary activity and irregular working hours'",
+      "source": "[S8] https://www.infosys.com/about/esg/social/employee-wellbeing/driving-culture-wellness.html",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Company fact",
+      "statement": "Employee geography: 85% of Infosys' employees were located in India (as of 2023)",
+      "source": "[S6] https://en.wikipedia.org/wiki/Infosys",
+      "status": "Verified in web source"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Industry taken from S1's 'Technology and Communications' classification",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Employee count from S4 (Integrated Annual Report 2024-25) as most recent official figure; S1 matches this number",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Revenue figure from S4 is in Indian crores (not explicitly stated but standard for Indian annual reports)",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Key risks are inferred from workforce description (IT services), HALE program focus areas, global presence, and recruitment volume \u2013 not explicitly stated as risks in sources",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Gender mix and geography facts taken from S4 and S6 respectively, though dates differ (Fiscal 2025 vs 2023)",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Health insurance partner change (S5) indicates ~320,000 covered lives, consistent with employee count",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Wellness program details (S8) used to infer sedentary work and irregular hours as risk factors",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Assumed 'Care Supreme' is the base policy name for Care Health's flagship product referenced in the brochure as 'Care Advanced' add-on",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Assumed the 15% overseas workforce figure derives from the 85% India-located statistic in company facts",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Assumed 'instant cover' for pre-existing conditions after 30 days applies to new hires given high recruitment volume",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    },
+    {
+      "category": "Assumption",
+      "statement": "Assumed wellness benefits are accessible digitally 24/7 to accommodate shift/irregular hours",
+      "source": "\u2014",
+      "status": "Advisor to confirm with client"
+    }
+  ],
+  "audit_model": "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free",
+  "audited_at": "27 Sep 2026, 08:21",
+  "notes": []
+}

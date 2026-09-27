@@ -1,0 +1,26 @@
+# UI
+streamlit
+
+# PDF ingestion
+pymupdf          # PDF text extraction (import name: fitz)
+
+# Chunking / retrieval
+faiss-cpu
+rank_bm25              # BM25 keyword search — used in audit layer (Stage 6) fallback
+sentence-transformers   # local embeddings (no API cost)
+
+# LLM access — OpenRouter only (OpenAI-compatible API), see src/config.py
+langchain-openai
+
+# Structured output validation
+pydantic
+
+# Slide deck generation
+python-pptx
+
+# Word document generation (audit reports)
+python-docx
+
+# Utilities
+python-dotenv
+pandas
