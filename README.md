@@ -1,4 +1,4 @@
-# Marsh Case Study — AI-Powered Insurance Pitch Generator & Auditor
+AI-Powered Insurance Pitch Generator & Auditor
 
 Internship case study submission for Marsh (India Knowledge Services, Data Science Team).
 
